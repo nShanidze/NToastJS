@@ -1,2 +1,0 @@
-# NToastJS
-Toast messages
