@@ -15,18 +15,16 @@ Toast messages
  <li>install jquery <a href='https://jquery.com/'>jquery</a></li>
 </ul>
 
+ 
+ NToast(
 
-  <textarea class="form-control border-0 mt-1" name="code" id="code" >
+     (1:option) => "#5060DC",                         ( background color )
+     (2:option) =>  "tr",                             ( position:  TR - TopRight / TL - TopLeft | BR - BottomRight | BL - BottomLeft )
+     (3:option) =>  "Welcome To NToastJs, this is beta version ..",      ( text )
+     (4:option) =>  true,                             ( icon [FALSE,TRUE] )
+     (5:option) =>  "fa fa-check",                    ( change icon only class name [fontawesome or others] )
+     (6:option) =>  true                              ( show hide progress bar [FALSE,TRUE] )
 
-    NToast(
-        
-        (1:option) => "#5060DC",                         ( background color )
-        (2:option) =>  "tr",                             ( position:  TR - TopRight / TL - TopLeft | BR - BottomRight | BL - BottomLeft )
-        (3:option) =>  "Welcome To NToastJs, this is beta version ..",      ( text )
-        (4:option) =>  true,                             ( icon [FALSE,TRUE] )
-        (5:option) =>  "fa fa-check",                    ( change icon only class name [fontawesome or others] )
-        (6:option) =>  true                              ( show hide progress bar [FALSE,TRUE] )
+     (v0.1.5)  
+ )
 
-        (v0.1.5)  
-    )
-  </textarea>
