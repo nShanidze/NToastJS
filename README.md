@@ -24,7 +24,6 @@ Toast messages
      (4:option) =>  true,                             ( icon [FALSE,TRUE] )
      (5:option) =>  "fa fa-check",                    ( change icon only class name [fontawesome or others] )
      (6:option) =>  true                              ( show hide progress bar [FALSE,TRUE] )
-
-     (v0.1.5)  
- )
+ 
+     )
 
