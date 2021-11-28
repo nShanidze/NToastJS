@@ -18,13 +18,13 @@ Toast messages
 <h5 class='mt-5'>CDN</h5>
 
 <ul>
-   <li>Toast-min.css - https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/NToast-min.css </li>
-     <li>NToast.min.js - https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/NToast.min.js </li>
+ <li>Toast-min.css -<a href="https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/NToast-min.css"></a> </li>
+     <li>NToast.min.js - -<a href="https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/NToast.min.js"></a> </li>
 </ul>
  
 
 
-<textarea>
+ 
  NToast( "#5060DC", "tr", "Welcome To NToastJs, this is beta version", true, "fa fa-check", true)
 
  NToast(
@@ -35,5 +35,5 @@ Toast messages
    (5:option) =>  "fa fa-check",                    ( change icon only class name [fontawesome or others] )
    (6:option) =>  true                              ( show hide progress bar [FALSE,TRUE] )
 )
-</textarea> 
+ 
  
