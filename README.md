@@ -52,7 +52,8 @@ NToast(
     this is beta version",
     true, 
     "fa fa-check",
-    true
+    true,
+    "100"
 
 )
 
