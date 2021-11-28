@@ -83,7 +83,7 @@
         <ul>
             <li>add NToast.js in body! and add code Ntoast below</li>
         </ul>
-        <img src='https://i.ibb.co/k6sqLTy/rule.png' style='width:100%'>
+        <img src='https://i.ibb.co/k6sqLTy/rule.png' class='helpimg'>
         <br><br>
         <h5>Top Left (tl) (icon: fa fa-check)<h5>
                 <br>
@@ -124,6 +124,13 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/NToast.min.js"></script>
+                    <style>
+                    @media (max-width:800px){
+                        
+                        .helpimg{
+                            width:100%
+                        }
+                    </style>
     <script>
         var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
             lineNumbers: true,
