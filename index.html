@@ -1,260 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NToast (v0.1.5) </title>
-    <link rel="icon" href="assets/NToast.png">
-    <meta name="keywords" content="jquery plugin, plugins web, Toast Js, NToast, Message Plugin Jquery, Message Plugin">
-    <meta name="description" content="jquery plugin, plugins web, Toast Js, NToast, Message Plugin Jquery, Message Plugin">
-    <meta name="author" content="Nodo Shanidze">
-    <!--FACEBOOK-->
-    <meta property='og:image' content='https://i.ibb.co/SJDvP8h/New-Project.png' />
-    <meta property='og:image:type' content='image/png'>
-    <meta property='og:image:width' content='1024'>
-    <meta property='og:image:height' content='1024'>
-    <meta property='og:type' content='website' />
-    <meta property='og:url' content='https://nshanidze.github.io/NToastJS' />
-    <meta property='og:title' content='NToastJS - V0.1.5' />
-    <meta property='og:description' content='jquery plugin, plugins web, Toast Js, NToast, Message Plugin Jquery, Message Plugin' />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/NToast-min.css">
-    <script src="https://kit.fontawesome.com/b1cd5862d8.js"></script>
-    <!-- [] -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script type="text/javascript" src="https://codemirror.net/lib/codemirror.js"></script>
-    <script type="text/javascript" src="https://codemirror.net/mode/perl/perl.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://codemirror.net/lib/codemirror.css">
-    </link>
-    <link rel="stylesheet" type="text/css" href="https://codemirror.net/theme/abbott.css">
-    </link>
-    <!-- [] -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NToast (v0.1.5) </title>
+<link rel="icon" href="assets/NToast.png">
+<meta name="keywords" content="jquery plugin, plugins web, Toast Js, NToast, Message Plugin Jquery, Message Plugin">
+<meta name="description" content="jquery plugin, plugins web, Toast Js, NToast, Message Plugin Jquery, Message Plugin">
+<meta name="author" content="Nodo Shanidze">
+<!--FACEBOOK-->
+<meta property='og:image' content='https://i.ibb.co/SJDvP8h/New-Project.png' />
+<meta property='og:image:type' content='image/png'>
+<meta property='og:image:width' content='1024'>
+<meta property='og:image:height' content='1024'>
+<meta property='og:type' content='website' />
+<meta property='og:url' content='https://nshanidze.github.io/NToastJS' />
+<meta property='og:title' content='NToastJS - V0.1.5' />
+<meta property='og:description' content='jquery plugin, plugins web, Toast Js, NToast, Message Plugin Jquery, Message Plugin' />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/NToast-min.css">
+<script src="https://kit.fontawesome.com/b1cd5862d8.js"></script>
+<!-- [] -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="https://codemirror.net/lib/codemirror.css">
+</link>
+<link rel="stylesheet" type="text/css" href="https://codemirror.net/theme/abbott.css">
+</link>
+<!-- [] -->
 </head>
 
 <body style='background-color:#dddddd;'>
-    <div class='container w-100 mt-5'>
-        <img src="assets/NToast.png" style="width:50px;">
-        <span href='#download' class='text-dark text-decoration-none fw-bold bx-spin-hover'>Made with by <i class="fas fa-heart ms-1"></i><a
-                href='mailto:nodo-shanidze@mail.ru' class='ms-2 text-decoration-none'>nodo-shanidze@mail.ru </a>
-        </span>
-        <div class="form-floating mt-5 w-100 ">
-            <textarea class="form-control border-0 mt-1" name="code" id="code">
+<div class='container w-100 mt-5'>
+<img src="assets/NToast.png" style="width:50px;">
+<span href='#download' class='text-dark text-decoration-none fw-bold bx-spin-hover'>Made with by <i class="fas fa-heart ms-1"></i><a
+href='mailto:nodo-shanidze@mail.ru' class='ms-2 text-decoration-none'>nodo-shanidze@mail.ru </a>
+</span>
+<div class="form-floating mt-5 w-100 ">
+<textarea class="form-control border-0 mt-1" name="code" id="code">
 
-            NToast(
-                (1:option) => "#5060DC",                         ( background color )
-                (2:option) =>  "tr",                             ( position:  TR - TopRight / TL - TopLeft | BR - BottomRight | BL - BottomLeft )
-                (3:option) =>  "Welcome To NToastJs, this is beta version ..",      ( text )
-                (4:option) =>  true,                             ( icon [FALSE,TRUE] )
-                (5:option) =>  "fa fa-check",                    ( change icon only class name [fontawesome or others] )
-                (6:option) =>  true                              ( show hide progress bar [FALSE,TRUE] )
-            )
-          </textarea>
-        </div>
-        <h5 class='mt-5'>Getting Started</h5>
-        <ul class='mt-2'>
-            <li>(NToast.js) Download and include the Js file <a href="assets/NToast.min.js" download class='ms-1 me-1 fs-6'>minified</a> or <a
-                    href="assets/NToast.js" class='ms-1 me-1 fs-6' download>full</a></li>
-            <li>(NToast.css) Download and include the CSS file <a href="assets/NToast-min.css" class='ms-1 me-1 fs-6' download>minified</a> or <a
-                    href="assets/NToast.css" class='ms-1 me-1 fs-6' download>full</a></li>
-        </ul>
-        <h5 class='mt-5'>CDN</h5>
-        <ul class='myul'>
-            <li>Toast.css - <a
-                    href='https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/assets/NToast-min.css'>https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/assets/NToast.css
-                </a></li>
-            <li>NToast.js - <a
-                    href='https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/assets/NToast.min.js'>https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/assets/NToast.js
-                </a></li>
-            <br>
-            <li>Toast-min.css - <a
-                    href='https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/assets/NToast-min.css'>https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/assets/NToast-min.css
-                </a></li>
-            <li>NToast.min.js - <a
-                    href='https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/assets/NToast.min.js'>https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/assets/NToast.min.js
-                </a></li>
-        </ul>
-        <h5 class='mt-5'>Also Needed</h5>
-        <ul>
-            <li><a href='https://jquery.com/'>Jquery</a></li>
-            <li><a href='https://jquery.com/'>Fontawesome</a> or others css icons</li>
-        </ul>
-        <h5 class='mt-5'>the main rule!</h5>
-        <ul>
-            <li>add NToast.js in body! and add code Ntoast below</li>
-        </ul>
-        <img src='https://i.ibb.co/k6sqLTy/rule.png' class='helpimg'>
-        <br><br>
-        <h5>Top Left (tl) (icon: fa fa-check)<h5>
-                <br>
-                <button id="show-edit-tl" style='background-color:#5060DC;' class='btn text-light font-monospace mt-2'>Try It #5060DC <i
-                        class='fa fa-check'></i></button>
-                <button id="show-edit-1-tl" style='background-color:#459213' class='btn text-light font-monospace mt-2'>Try It #459213 <i
-                        class='fa fa-check'></i></button>
-                <button id="show-edit-2-tl" style='background-color:#277BD9' class='btn text-light font-monospace mt-2'>Try It #277BD9 <i
-                        class='fa fa-check'></i></button>
-                <button id="show-edit-3-tl" style='background-color:#E58847' class='btn text-light font-monospace mt-2'>Try It #E58847 <i
-                        class='fa fa-check'></i></button>
-                <br><br>
-                <h5>Top Right (tr) (icon: fa fa-times)<h5>
-                        <br>
-                        <button id="show-edit" style='background-color:#5060DC;' class='btn text-light font-monospace mt-2'>Try It #5060DC <i
-                                class='fa fa-times'></i></button>
-                        <button id="show-edit-1" style='background-color:#459213' class='btn text-light font-monospace mt-2'>Try It #459213 <i
-                                class='fa fa-times'></i></button>
-                        <button id="show-edit-2" style='background-color:#277BD9' class='btn text-light font-monospace mt-2'>Try It #277BD9 <i
-                                class='fa fa-times'></i></button>
-                        <button id="show-edit-3" style='background-color:#E58847' class='btn text-light font-monospace mt-2'>Try It #E58847 <i
-                                class='fa fa-times'></i></button>
-                        <div class='m-5 ms-0 w-100'>
-                            <hr>
-                            <a class="text-decoration-none" href='https://fontawesome.com/'>
-                                <img class='mt-3' src='https://iconape.com/wp-content/files/dw/58696/svg/fontawesome-1.svg' style="width:40px">
-                            </a>
-                            <a class="text-decoration-none" href='https://codemirror.net/'>
-                                <img class='mt-3 ms-4' src='https://codemirror.net/doc/logo.png' style="width:40px">
-                            </a>
-                            <a class="text-decoration-none" href='https://github.com/nShanidze/NToastJS'>
-                               <img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" class="mt-3 ms-4" style="width: 38px;">
-                            </a>
-                            
-                            
-                            <img src="assets/NToast.png" class='mt-3 ms-4' style="width:70px;">
-                        </div><br><br>
-            </div>
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/NToast.min.js"></script>
-                    <style>
-                    @media (max-width:800px){
-                        
-                        .helpimg{
-                            width:100%
-                        }
-                        .myul li {
-                        overflow: hidden;
-                        text-overflow: ellipsis;
-                        width: 100%;
-                    }
-                <script>
-        var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
-            lineNumbers: true,
-            mode: 'text/x-perl',
-            matchBrackets: true,
-            readOnly: true
-        });
-
-        // =========== TOP LEFT ============ //
-        $("#show-edit-tl").click(function() {
-
-            NToast(
-
-                "#5060DC", /* BACKGOUND COLOR */
-                "tl", /* TR - TOP RIGHT | TL - TOP LEFT | BR - BOTTOM RIGHT | BL - BOTTOM LEFT*/
-                "Welcome To NToastJs, this is beta version ..", /* NOTIFICATION DESCRIPTION */
-                true, /* ICONS [FALSE,TRUE] */
-                "fa fa-check", /* COSTUM ICONS [fontawesome or others] */
-                true /* show hide progress bar [FALSE,TRUE] */
-            )
-
-        })
+NToast(
+(1:option) => "#5060DC",                         ( background color )
+(2:option) =>  "tr",                             ( position:  TR - TopRight / TL - TopLeft | BR - BottomRight | BL - BottomLeft )
+(3:option) =>  "Welcome To NToastJs, this is beta version ..",      ( text )
+(4:option) =>  true,                             ( icon [FALSE,TRUE] )
+(5:option) =>  "fa fa-check",                    ( change icon only class name [fontawesome or others] )
+(6:option) =>  true                              ( show hide progress bar [FALSE,TRUE] )
+)
+</textarea>
+</div>
+<h5 class='mt-5'>Getting Started</h5>
+<ul class='mt-2'>
+<li>(NToast.js) Download and include the Js file <a href="assets/NToast.min.js" download class='ms-1 me-1 fs-6'>minified</a> or <a
+    href="assets/NToast.js" class='ms-1 me-1 fs-6' download>full</a></li>
+<li>(NToast.css) Download and include the CSS file <a href="assets/NToast-min.css" class='ms-1 me-1 fs-6' download>minified</a> or <a
+    href="assets/NToast.css" class='ms-1 me-1 fs-6' download>full</a></li>
+</ul>
+<h5 class='mt-5'>CDN</h5>
+<ul class='myul'>
+<li>Toast.css - <a
+    href='https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/assets/NToast-min.css'>https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/assets/NToast.css
+</a></li>
+<li>NToast.js - <a
+    href='https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/assets/NToast.min.js'>https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/assets/NToast.js
+</a></li>
+<br>
+<li>Toast-min.css - <a
+    href='https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/assets/NToast-min.css'>https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/assets/NToast-min.css
+</a></li>
+<li>NToast.min.js - <a
+    href='https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/assets/NToast.min.js'>https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/assets/NToast.min.js
+</a></li>
+</ul>
+<h5 class='mt-5'>Also Needed</h5>
+<ul>
+<li><a href='https://jquery.com/'>Jquery</a></li>
+<li><a href='https://jquery.com/'>Fontawesome</a> or others css icons</li>
+</ul>
+<h5 class='mt-5'>the main rule!</h5>
+<ul>
+<li>add NToast.js in body! and add code Ntoast below</li>
+</ul>
+<img src='https://i.ibb.co/k6sqLTy/rule.png' class='helpimg'>
+<br><br>
+<h5>Top Left (tl) (icon: fa fa-check)<h5>
+<br>
+<button id="show-edit-tl" style='background-color:#5060DC;' class='btn text-light font-monospace mt-2'>Try It #5060DC <i
+        class='fa fa-check'></i></button>
+<button id="show-edit-1-tl" style='background-color:#459213' class='btn text-light font-monospace mt-2'>Try It #459213 <i
+        class='fa fa-check'></i></button>
+<button id="show-edit-2-tl" style='background-color:#277BD9' class='btn text-light font-monospace mt-2'>Try It #277BD9 <i
+        class='fa fa-check'></i></button>
+<button id="show-edit-3-tl" style='background-color:#E58847' class='btn text-light font-monospace mt-2'>Try It #E58847 <i
+        class='fa fa-check'></i></button>
+<br><br>
+<h5>Top Right (tr) (icon: fa fa-times)<h5>
+        <br>
+        <button id="show-edit" style='background-color:#5060DC;' class='btn text-light font-monospace mt-2'>Try It #5060DC <i
+                class='fa fa-times'></i></button>
+        <button id="show-edit-1" style='background-color:#459213' class='btn text-light font-monospace mt-2'>Try It #459213 <i
+                class='fa fa-times'></i></button>
+        <button id="show-edit-2" style='background-color:#277BD9' class='btn text-light font-monospace mt-2'>Try It #277BD9 <i
+                class='fa fa-times'></i></button>
+        <button id="show-edit-3" style='background-color:#E58847' class='btn text-light font-monospace mt-2'>Try It #E58847 <i
+                class='fa fa-times'></i></button>
+        <div class='m-5 ms-0 w-100'>
+            <hr>
+            <a class="text-decoration-none" href='https://fontawesome.com/'>
+                <img class='mt-3' src='https://iconape.com/wp-content/files/dw/58696/svg/fontawesome-1.svg' style="width:40px">
+            </a>
+            <a class="text-decoration-none" href='https://codemirror.net/'>
+                <img class='mt-3 ms-4' src='https://codemirror.net/doc/logo.png' style="width:40px">
+            </a>
+            <a class="text-decoration-none" href='https://github.com/nShanidze/NToastJS'>
+               <img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" class="mt-3 ms-4" style="width: 38px;">
+            </a>
 
 
-        $("#show-edit-1-tl").click(function() {
+            <img src="assets/NToast.png" class='mt-3 ms-4' style="width:70px;">
+        </div><br><br>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/NToast.min.js"></script>
 
-            NToast(
+<script type="text/javascript" src="https://codemirror.net/lib/codemirror.js"></script>
+<script type="text/javascript" src="https://codemirror.net/mode/perl/perl.js"></script>
+    <style>
+    @media (max-width:800px){
 
-                "#459213", /* BACKGOUND COLOR */
-                "tl", /* TR - TOP RIGHT | TL - TOP LEFT | BR - BOTTOM RIGHT | BL - BOTTOM LEFT*/
-                "Welcome To NToastJs, this is beta version ..", /* NOTIFICATION DESCRIPTION */
-                true, /* ICONS [FALSE,TRUE] */
-                "fa fa-check", /* COSTUM ICONS [fontawesome or others] */
-                true /* show hide progress bar [FALSE,TRUE] */
-            )
+        .helpimg{
+            width:100%
+        }
+        .myul li {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 100%;
+    }
+<script>
+var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
+lineNumbers: true,
+mode: 'text/x-perl',
+matchBrackets: true,
+readOnly: true
+});
 
-        })
-        $("#show-edit-2-tl").click(function() {
+// =========== TOP LEFT ============ //
+$("#show-edit-tl").click(function() {
 
-            NToast(
+NToast(
 
-                "#277BD9", /* BACKGOUND COLOR */
-                "tl", /* TR - TOP RIGHT | TL - TOP LEFT | BR - BOTTOM RIGHT | BL - BOTTOM LEFT*/
-                "Welcome To NToastJs, this is beta version ..", /* NOTIFICATION DESCRIPTION */
-                true, /* ICONS [FALSE,TRUE] */
-                "fa fa-check", /* COSTUM ICONS [fontawesome or others] */
-                true /* show hide progress bar [FALSE,TRUE] */
-            )
+"#5060DC", /* BACKGOUND COLOR */
+"tl", /* TR - TOP RIGHT | TL - TOP LEFT | BR - BOTTOM RIGHT | BL - BOTTOM LEFT*/
+"Welcome To NToastJs, this is beta version ..", /* NOTIFICATION DESCRIPTION */
+true, /* ICONS [FALSE,TRUE] */
+"fa fa-check", /* COSTUM ICONS [fontawesome or others] */
+true /* show hide progress bar [FALSE,TRUE] */
+)
 
-        })
-        $("#show-edit-3-tl").click(function() {
-
-            NToast(
-
-                "#E58847", /* BACKGOUND COLOR */
-                "tl", /* TR - TOP RIGHT | TL - TOP LEFT | BR - BOTTOM RIGHT | BL - BOTTOM LEFT*/
-                "Welcome To NToastJs, this is beta version ..", /* NOTIFICATION DESCRIPTION */
-                true, /* ICONS [FALSE,TRUE] */
-                "fa fa-check", /* COSTUM ICONS [fontawesome or others] */
-                true /* show hide progress bar [FALSE,TRUE] */
-            )
-
-        })
-
-        // === TOP RIGHT == //
-
-        $("#show-edit").click(function() {
-
-            NToast(
-
-                "#5060DC", /* BACKGOUND COLOR */
-                "tr", /* TR - TOP RIGHT | TL - TOP LEFT | BR - BOTTOM RIGHT | BL - BOTTOM LEFT*/
-                "Welcome To NToastJs, this is beta version ..", /* NOTIFICATION DESCRIPTION */
-                true, /* ICONS [FALSE,TRUE] */
-                "fas fa-times", /* COSTUM ICONS [fontawesome or others] */
-                true /* show hide progress bar [FALSE,TRUE] */
-            )
-
-        })
+})
 
 
-        $("#show-edit-1").click(function() {
+$("#show-edit-1-tl").click(function() {
 
-            NToast(
+NToast(
 
-                "#459213", /* BACKGOUND COLOR */
-                "tr", /* TR - TOP RIGHT | TL - TOP LEFT | BR - BOTTOM RIGHT | BL - BOTTOM LEFT*/
-                "Welcome To NToastJs, this is beta version ..", /* NOTIFICATION DESCRIPTION */
-                true, /* ICONS [FALSE,TRUE] */
-                "fas fa-times", /* COSTUM ICONS [fontawesome or others] */
-                true /* show hide progress bar [FALSE,TRUE] */
-            )
+"#459213", /* BACKGOUND COLOR */
+"tl", /* TR - TOP RIGHT | TL - TOP LEFT | BR - BOTTOM RIGHT | BL - BOTTOM LEFT*/
+"Welcome To NToastJs, this is beta version ..", /* NOTIFICATION DESCRIPTION */
+true, /* ICONS [FALSE,TRUE] */
+"fa fa-check", /* COSTUM ICONS [fontawesome or others] */
+true /* show hide progress bar [FALSE,TRUE] */
+)
 
-        })
-        $("#show-edit-2").click(function() {
+})
+$("#show-edit-2-tl").click(function() {
 
-            NToast(
+NToast(
 
-                "#277BD9", /* BACKGOUND COLOR */
-                "tr", /* TR - TOP RIGHT | TL - TOP LEFT | BR - BOTTOM RIGHT | BL - BOTTOM LEFT*/
-                "Welcome To NToastJs, this is beta version ..", /* NOTIFICATION DESCRIPTION */
-                true, /* ICONS [FALSE,TRUE] */
-                "fas fa-times", /* COSTUM ICONS [fontawesome or others] */
-                true /* show hide progress bar [FALSE,TRUE] */
-            )
+"#277BD9", /* BACKGOUND COLOR */
+"tl", /* TR - TOP RIGHT | TL - TOP LEFT | BR - BOTTOM RIGHT | BL - BOTTOM LEFT*/
+"Welcome To NToastJs, this is beta version ..", /* NOTIFICATION DESCRIPTION */
+true, /* ICONS [FALSE,TRUE] */
+"fa fa-check", /* COSTUM ICONS [fontawesome or others] */
+true /* show hide progress bar [FALSE,TRUE] */
+)
 
-        })
-        $("#show-edit-3").click(function() {
+})
+$("#show-edit-3-tl").click(function() {
 
-            NToast(
+NToast(
 
-                "#E58847", /* BACKGOUND COLOR */
-                "tr", /* TR - TOP RIGHT | TL - TOP LEFT | BR - BOTTOM RIGHT | BL - BOTTOM LEFT*/
-                "Welcome To NToastJs, this is beta version ..", /* NOTIFICATION DESCRIPTION */
-                true, /* ICONS [FALSE,TRUE] */
-                "fas fa-times", /* COSTUM ICONS [fontawesome or others] */
-                true /* show hide progress bar [FALSE,TRUE] */
-            )
+"#E58847", /* BACKGOUND COLOR */
+"tl", /* TR - TOP RIGHT | TL - TOP LEFT | BR - BOTTOM RIGHT | BL - BOTTOM LEFT*/
+"Welcome To NToastJs, this is beta version ..", /* NOTIFICATION DESCRIPTION */
+true, /* ICONS [FALSE,TRUE] */
+"fa fa-check", /* COSTUM ICONS [fontawesome or others] */
+true /* show hide progress bar [FALSE,TRUE] */
+)
 
-        })
-    </script>
+})
+
+// === TOP RIGHT == //
+
+$("#show-edit").click(function() {
+
+NToast(
+
+"#5060DC", /* BACKGOUND COLOR */
+"tr", /* TR - TOP RIGHT | TL - TOP LEFT | BR - BOTTOM RIGHT | BL - BOTTOM LEFT*/
+"Welcome To NToastJs, this is beta version ..", /* NOTIFICATION DESCRIPTION */
+true, /* ICONS [FALSE,TRUE] */
+"fas fa-times", /* COSTUM ICONS [fontawesome or others] */
+true /* show hide progress bar [FALSE,TRUE] */
+)
+
+})
+
+
+$("#show-edit-1").click(function() {
+
+NToast(
+
+"#459213", /* BACKGOUND COLOR */
+"tr", /* TR - TOP RIGHT | TL - TOP LEFT | BR - BOTTOM RIGHT | BL - BOTTOM LEFT*/
+"Welcome To NToastJs, this is beta version ..", /* NOTIFICATION DESCRIPTION */
+true, /* ICONS [FALSE,TRUE] */
+"fas fa-times", /* COSTUM ICONS [fontawesome or others] */
+true /* show hide progress bar [FALSE,TRUE] */
+)
+
+})
+$("#show-edit-2").click(function() {
+
+NToast(
+
+"#277BD9", /* BACKGOUND COLOR */
+"tr", /* TR - TOP RIGHT | TL - TOP LEFT | BR - BOTTOM RIGHT | BL - BOTTOM LEFT*/
+"Welcome To NToastJs, this is beta version ..", /* NOTIFICATION DESCRIPTION */
+true, /* ICONS [FALSE,TRUE] */
+"fas fa-times", /* COSTUM ICONS [fontawesome or others] */
+true /* show hide progress bar [FALSE,TRUE] */
+)
+
+})
+$("#show-edit-3").click(function() {
+
+NToast(
+
+"#E58847", /* BACKGOUND COLOR */
+"tr", /* TR - TOP RIGHT | TL - TOP LEFT | BR - BOTTOM RIGHT | BL - BOTTOM LEFT*/
+"Welcome To NToastJs, this is beta version ..", /* NOTIFICATION DESCRIPTION */
+true, /* ICONS [FALSE,TRUE] */
+"fas fa-times", /* COSTUM ICONS [fontawesome or others] */
+true /* show hide progress bar [FALSE,TRUE] */
+)
+
+})
+</script>
 </body>
 
 </html>
