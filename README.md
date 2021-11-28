@@ -25,7 +25,17 @@ Toast messages
 
 
  
- NToast( "#5060DC", "tr", "Welcome To NToastJs, this is beta version", true, "fa fa-check", true)
+  NToast( 
+
+  "#5060DC", 
+  "tr", 
+  "Welcome To NToastJs,
+  this is beta version",
+  true, 
+  "fa fa-check",
+  true
+
+  )
 
  NToast(
  
