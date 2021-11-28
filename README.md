@@ -22,21 +22,8 @@ Toast messages
  <li>NToast.min.js - https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/NToast.min.js</li>
 </ul>
  
-
-
  
-  NToast( 
-
-  "#5060DC", 
-  "tr", 
-  "Welcome To NToastJs,
-  this is beta version",
-  true, 
-  "fa fa-check",
-  true
-
-  )
-
+ 
  NToast(
  
     (1:option) => "#5060DC",                         ( background color )
@@ -48,4 +35,19 @@ Toast messages
     
 )
  
+ 
+ 
+
+NToast( 
+
+    "#5060DC", 
+    "tr", 
+    "Welcome To NToastJs,
+    this is beta version",
+    true, 
+    "fa fa-check",
+    true
+
+)
+
  
