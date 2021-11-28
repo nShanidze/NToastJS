@@ -31,7 +31,7 @@
     -o-transition: 0.1s;
 }
 .NToastJs-container{
-    padding-top: 13px;
+    padding-top: 15px;
 }
 .withouticon{
     padding-right: 25px !important;
@@ -49,12 +49,11 @@
     width: 100%;
     left: 0;
     padding-right: 29px;
-    padding-left: 42px;
+    padding-left: 39px;
     font-size: 12px;
     padding-top: 0px;
     padding-bottom: 0px;
     color: #fff;
-    font-family: monospace;
 }
 .NToastJs-close{
     position: absolute;
@@ -63,9 +62,7 @@
     margin-right: 7px;
     color: #fff;
     margin-top: 1.5px;
-    font-size: 16px;
-    font-family: monospace;
-    user-select: none;
+    font-size: 15px;
     cursor: pointer;
 }
 .NToastJs-close:hover{ transform:scale(1.1); -webkit-transform:scale(1.1); -moz-transform:scale(1.1); -ms-transform:scale(1.1); -o-transform:scale(1.1);}
@@ -79,7 +76,7 @@
     right: 0;
     justify-content: center;
     margin:10px;
-    margin-top:11px;
+    margin-top: 7px !important;
     text-align: center;
     border-radius: 2px;
     -webkit-border-radius: 2px;
