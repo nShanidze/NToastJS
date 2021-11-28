@@ -24,7 +24,7 @@ Toast messages
  
 
 
-
+<textarea>
  NToast( "#5060DC", "tr", "Welcome To NToastJs, this is beta version", true, "fa fa-check", true)
 
  NToast(
@@ -35,5 +35,5 @@ Toast messages
    (5:option) =>  "fa fa-check",                    ( change icon only class name [fontawesome or others] )
    (6:option) =>  true                              ( show hide progress bar [FALSE,TRUE] )
 )
- 
+</textarea> 
  
