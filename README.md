@@ -18,9 +18,9 @@ Toast messages
 <h5 class='mt-5'>CDN</h5>
 
 <ul>
-     https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/NToast-min.css 
-     https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/NToast.min.js 
-<ul>
+   <li>Toast-min.css - https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/NToast-min.css </li>
+     <li>NToast.min.js - https://cdn.jsdelivr.net/gh/nShanidze/NToastJS/NToast.min.js </li>
+<ul/>
  
  
      NToast( "#5060DC", "tr", "Welcome To NToastJs, this is beta version", true, "fa fa-check", true)
