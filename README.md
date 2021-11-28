@@ -5,7 +5,8 @@ Toast messages
 * Made with by nodo-shanidze [nodo-shanidze@mail.ru & shanidzenodo0@gmail.com]
  
 * ceated at 11/26/2021
-* version (v0.1.5)  12/26/2021 (11:57)
+* version (v0.1.5)  12/26/2021 (11:57) Created
+* version (v0.1.6) 11/28/2021 Updated (optimized code, add functions: costum autoclose time, add blur effect, fix bugs safari browser)
 
 <h5 class='mt-5'>Getting Started</h5>
 <ul class='mt-2'>
@@ -30,13 +31,14 @@ Toast messages
  
  NToast(
  
-    (1:option) => "#5060DC",                         ( background color )
-    (2:option) =>  "tr",                             ( position:  TR - TopRight / TL - TopLeft | BR - BottomRight | BL - BottomLeft )
-    (3:option) =>  "Welcome To NToastJs, this is beta version ..",      ( text )
-    (4:option) =>  true,                             ( icon [FALSE,TRUE] )
-    (5:option) =>  "fa fa-check",                    ( change icon only class name [fontawesome or others] )
-    (6:option) =>  true                              ( show hide progress bar [FALSE,TRUE] )
-    
+    (1) => "#5060DC blur",                  ( BACKGOUND COLOR (v0.1.6 -> "blur" option)  )
+    (2) =>  "tr",                           ( position:  TR - TopRight / TL - TopLeft | BR - BottomRight | BL - BottomLeft )
+    (3) =>  "Welcome To NToastJs v0.1.6",   ( text )
+    (4) =>  true,                           ( icon [FALSE,TRUE] )
+    (5) =>  "fa fa-check",                  ( change icon only class name [fontawesome or others] )
+    (6) =>  true,                           ( show hide progress bar [FALSE,TRUE] )
+    (7) =>  "100"                           ( v0.1.6 change autoclose time (if you delete line -> auto on normal speed [125]) )
+
 )
  
  
