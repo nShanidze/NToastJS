@@ -130,8 +130,14 @@
                         .helpimg{
                             width:100%
                         }
-                    </style>
-    <script>
+                        ul > li {
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        position: absolute;
+                        width: 50%;
+                    }
+                <script>
         var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
             lineNumbers: true,
             mode: 'text/x-perl',
