@@ -25,9 +25,8 @@
     background: #fff;
     position: absolute;
     z-index:99999999;
-
     opacity:0.8;
-    margin-top: 15.5px;
+    margin-top: 15px;
     transition:1s;
     -webkit-transition:1s;
     -moz-transition:1s;
