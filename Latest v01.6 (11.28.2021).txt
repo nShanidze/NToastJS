@@ -1,0 +1,12 @@
+* NToast *
+ 
+-----------------------
+
+v (v0.1.5) 11/26/2021 Created
+
+v (v0.1.6) 11/28/2021 Updated (optimized code, add functions: costum autoclose time, add blur effect, fix bugs safari browser)
+
+
+-------------------
+
+author nodo-shanidze
