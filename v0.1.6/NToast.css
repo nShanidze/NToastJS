@@ -70,6 +70,7 @@
 }
 .NToastJs-close:hover{ transform:scale(1.1); -webkit-transform:scale(1.1); -moz-transform:scale(1.1); -ms-transform:scale(1.1); -o-transform:scale(1.1);}
 .NToastJs{
+    font-size: 12px !important;
     -webkit-animation: showanimation 0.4s ;
     animation: showanimation 0.4s ;
     background-image: linear-gradient(rgba(33, 79, 230, 0.63),rgba(47, 73, 160, 0.63) );
