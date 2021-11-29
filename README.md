@@ -6,7 +6,7 @@ Toast messages
  
 * ceated at 11/26/2021
 * version (v0.1.5)  12/26/2021 (11:57) Created
-* version (v0.1.6) 11/28/2021 Updated (optimized code, add functions: costum autoclose time, add blur effect, fix bugs safari browser)
+* version (v0.1.6) 11/28/2021 Updated (`optimized code, add functions: costum autoclose time, add blur effect, fix bugs safari browser`)
 
 <h5 class='mt-5'>Getting Started</h5>
 <ul class='mt-2'>
