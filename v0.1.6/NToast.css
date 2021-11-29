@@ -19,20 +19,20 @@
     -ms-transform: translate(-250%);
     -o-transform: translate(-250%);
 }
-.NToastJs-progress{
+.NToastJs-progress {
     width: 100%;
-    height: 1.8px;
+    height: 2.5px;
     background: #fff;
     position: absolute;
-    z-index:99999999;
-    opacity:0.8;
-    margin-top: 15px;
-    transition:1s;
-    -webkit-transition:1s;
-    -moz-transition:1s;
-    -ms-transition:1s;
-    -o-transition:1s;
+    z-index: 99999999;
+    margin-top: 18.5px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
 }
+ 
 .NToastJs-container{
     padding-top: 15px;
 }
@@ -100,8 +100,22 @@
     .NToastJs{
         height: auto;
     }
+ 
 }
-@media (max-width:500px) {
+@media (max-width:600px) {
+     .NToastJs-progress {
+        width: 100%;
+        height: 2.5px;
+        background: #fff;
+        position: absolute;
+        z-index: 99999999;
+        margin-top: 21px;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+    }
     .NToastJs{
         height: auto;
         width: 100%;
