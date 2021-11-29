@@ -45,12 +45,18 @@ Toast messages
   
 ` NToast(
   background,
+  
   position,
+  
   toastMessage,
+  
   showIcon,
+  
   iconClass,
+  
   showProgress,
-  autoDismissTime,
+  
+  autoDismissTime
  )
  `
   
