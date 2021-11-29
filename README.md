@@ -42,8 +42,18 @@ Toast messages
 )
  
  
- 
-
+  
+` NToast(
+  background,
+  position,
+  toastMessage,
+  showIcon,
+  iconClass,
+  showProgress,
+  autoDismissTime,
+ )
+ `
+  
 NToast( 
 
     "#5060DC", 
