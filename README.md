@@ -1,7 +1,7 @@
 # NToastJS
 Toast messages
  
-* NToast
+* NToast <a href='https://nshanidze.github.io/NToastJS/'>Show to Official Page!</a>
 * Made with by nodo-shanidze [nodo-shanidze@mail.ru & shanidzenodo0@gmail.com]
  
 * ceated at 11/26/2021
