@@ -39,13 +39,15 @@ href='mailto:nodo-shanidze@mail.ru' class='ms-2 text-decoration-none'>nodo-shani
 <div class="form-floating mt-5 w-100 ">
 <textarea class="form-control border-0 mt-1" style='height:400px' name="code" id="code" disabled>
 NToast(
-(1) => "#5060DC blur",                  ( BACKGOUND COLOR (v0.1.6 -> "blur" option)  )
-(2) =>  "tr",                           ( position:  TR - TopRight / TL - TopLeft | BR - BottomRight | BL - BottomLeft )
-(3) =>  "Welcome To NToastJs v0.1.6",   ( text )
-(4) =>  true,                           ( icon [FALSE,TRUE] )
-(5) =>  "fa fa-check",                  ( change icon only class name [fontawesome or others] )
-(6) =>  true,                           ( show hide progress bar [FALSE,TRUE] )
-(7) =>  "100"                           ( v0.1.6 change autoclose time (if you delete line -> auto on normal speed [125]) )
+ 
+    (1:option) => "#5060DC blur",                  ( BACKGOUND COLOR (v0.1.6 -> "blur" option)  )
+    (2:option) =>  "tr",                           ( position:  TR - TopRight / TL - TopLeft | BR - BottomRight | BL - BottomLeft )
+    (3:option) =>  "Welcome To NToastJs v0.1.6",   ( text )
+    (4:option) =>  true,                           ( icon [FALSE,TRUE] )
+    (5:option:option) =>  "fa fa-check",                  ( change icon only class name [fontawesome or others] )
+    (6:option) =>  true,                           ( show hide progress bar [FALSE,TRUE] )
+    (7:option) =>  "100"                           ( v0.1.6 change autoclose time (if you delete line -> auto on normal speed [125]) )
+ 
 )
 </textarea>
 </div>
@@ -125,7 +127,7 @@ NToast(
  var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
     lineNumbers: true,
     mode: 'text/x-perl',
-    theme: 'abbott',
+    theme: 'ayu-dark',
 });
  </script>
  
