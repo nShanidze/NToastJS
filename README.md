@@ -8,26 +8,6 @@ Toast messages
 * version (v0.1.5)  12/26/2021 (11:57) Created
 * version (v0.1.6) 11/28/2021 Updated (`optimized code, add functions: costum autoclose time, add blur effect, fix bugs safari browser`)
 
-<h5 class='mt-5'>Getting Started</h5>
-<ul class='mt-2'>
-<li>(NToast.js) Download and include the Js file <a href="NToast.min.js" download class='ms-1 me-1 fs-6'>minified</a> or <a href="NToast.js" class='ms-1 me-1 fs-6' download>full</a></li>
-<li>(NToast.css) Download and include the CSS file <a href="NToast-min.css" class='ms-1 me-1 fs-6' download>minified</a> or <a href="NToast.css" class='ms-1 me-1 fs-6' download>full</a></li>
-</ul>
-
-<h5 class='mt-5'>CDN</h5>
-
-<ul>
- <li>Toast-min.css - https://cdn.jsdelivr.net/gh/nShanidze/NToastJS@main/NToast.min.css</li>
- <li>NToast.min.js - https://cdn.jsdelivr.net/gh/nShanidze/NToastJS@main/NToast.min.js</li>
-</ul>
- 
- <h5 class='mt-5'>Also Needed</h5>
-
-<ul>
- <li>Jquery - https://jquery.com/</li>
- <li>Fontawesome or others css icons - https://fontawesome.com/</li>
-</ul>
- 
  
  NToast(
  
