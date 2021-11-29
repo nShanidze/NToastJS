@@ -24,8 +24,10 @@
     height: 1.8px;
     background: #fff;
     position: absolute;
+    z-index:99999999;
+
     opacity:0.8;
-    bottom: 0;
+    margin-top: 15.5px;
     transition:1s;
     -webkit-transition:1s;
     -moz-transition:1s;
@@ -60,13 +62,12 @@
 .NToastJs-close{
     position: absolute;
     right: 0;
-    top: 0;
     margin-right: 7px;
     color: #fff;
-    margin-top: 1.5px;
     font-size: 15px;
     cursor: pointer;
-    user-select:none;
+    z-index: 100000000;
+    margin-top: -39px;
 }
 .NToastJs-close:hover{ transform:scale(1.1); -webkit-transform:scale(1.1); -moz-transform:scale(1.1); -ms-transform:scale(1.1); -o-transform:scale(1.1);}
 .NToastJs{
@@ -110,5 +111,8 @@
     }
     .NToastJs-container{
         padding-top: 13px;
+    }
+    .NToastJs-loaded {
+        width: 100%;
     }
 }
