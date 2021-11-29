@@ -43,22 +43,15 @@ Toast messages
  
  
   
-` NToast(
+`NToast(
   background,
-  
   position,
-  
   toastMessage,
-  
   showIcon,
-  
   iconClass,
-  
   showProgress,
-  
   autoDismissTime
- )
- `
+ )`
   
 NToast( 
 
